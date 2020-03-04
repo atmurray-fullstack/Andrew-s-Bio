@@ -1,0 +1,96 @@
+*{
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+.clear {
+    clear: both;
+}
+
+.header{
+    clear:both;
+    width: 100%;
+    height:100px;
+    background-color: darkslategray;
+
+}
+.header nav{
+    font-size:16px;
+}
+
+.header img {
+    float:left;
+    margin-left:12px;
+    height:90px;
+    width:auto;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius:4px;
+}
+ul{
+    
+    list-style:none;
+}
+
+li{
+    position:relative;
+    bottom:-55px;
+    float:right;
+    margin:10px 10px 0 10px;
+}
+
+
+a {
+   
+    font-size:20px;
+    color:white;
+    
+}
+
+
+.container{
+    background-color:steelblue;
+
+}
+.container div{
+    text-align:center;
+    
+    float:left;
+    color: whitesmoke;
+    font-family: 'Odibee Sans', cursive;
+    font-size: 24px;
+    height:500px;
+    width: calc(25% - 24px);
+    border-style: solid;
+    border-width: 2px;
+    border-color:black;
+    border-radius:10px;
+    margin:5px;
+    padding: 5px;
+
+
+}
+.Sec1{
+
+}
+
+#hobbies{
+    background-image: url("https://instagram.fatl1-1.fna.fbcdn.net/v/t51.2885-15/e35/p1080x1080/66219296_126413765289888_7279190243242219787_n.jpg?_nc_ht=instagram.fatl1-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=PARxM8cDt2gAX9gIDWk&oh=0fb75a23774519ee2ab33ece1dc2cbc2&oe=5E985037");
+    background-position: center;
+}
+#goals{
+    background-image: url("https://instagram.fatl1-2.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/74711753_168022987727488_7313017323320433563_n.jpg?_nc_ht=instagram.fatl1-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=Q9GuCpuTYjUAX_fTjj2&oh=3df7d524f78ab2c89a40c4f8a403948b&oe=5E93330F");
+    background-position: center;
+}
+
+#outlook{
+    background-image: url("https://instagram.fatl1-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s750x750/64392839_410245372916021_5750498138455291065_n.jpg?_nc_ht=instagram.fatl1-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=ml-85bB8xYMAX8DeOdd&oh=7ebfe09acb4434f7265f9693b866337f&oe=5E8EE4DF");
+    background-position: center;
+}
+
+#bean{
+    background-image: url("https://instagram.fatl1-2.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/66649105_492297614957948_1627294346952158798_n.jpg?_nc_ht=instagram.fatl1-2.fna.fbcdn.net&_nc_cat=108&_nc_ohc=1rudBN_QUq0AX-IK7LA&oh=0cdfeb4807fe7c13372816f8ddca3e11&oe=5E97C3B2");
+    background-position: center; 
+}
