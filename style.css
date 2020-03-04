@@ -11,9 +11,19 @@
 .header{
     clear:both;
     width: 100%;
-    height:100px;
+    height:150px;
     background-color: darkslategray;
+    text-align: center;
 
+}
+
+.header h1{
+    font-family: 'Odibee Sans', cursive;
+    font-size:32px;
+    color:black;
+    border-bottom-width:2px;
+    border-bottom-style:solid;
+    
 }
 .header nav{
     font-size:16px;
@@ -22,31 +32,37 @@
 .header img {
     float:left;
     margin-left:12px;
-    height:90px;
+    height:120px;
     width:auto;
     border-style: solid;
     border-color: white;
     border-width: 2px;
     border-radius:4px;
 }
+
 ul{
     
     list-style:none;
 }
 
 li{
+    
     position:relative;
     bottom:-55px;
-    float:right;
+    display:inline-block;
     margin:10px 10px 0 10px;
 }
 
 
 a {
-   
+    font-family: 'Odibee Sans', cursive;
     font-size:20px;
     color:white;
     
+}
+a:hover{
+    color:orange;
+    font-size:30px;
 }
 
 
@@ -69,11 +85,12 @@ a {
     border-radius:10px;
     margin:5px;
     padding: 5px;
-
-
 }
-.Sec1{
-
+.container div:hover{
+    border-width:8px;
+    border-color:white;
+    width: calc(25% - 36px);
+    
 }
 
 #hobbies{
